@@ -17,3 +17,7 @@ After installing [Stylish](https://userstyles.org/), install [the stylesheet her
 ### Issues
 
 This has only been tested on Firefox 48 for Mac. Feel free to try it out on other platforms and [open an issue](https://github.com/nathancahill/prioritize-url/issues) for any bugs that you find.
+
+### Upstream
+
+There's an open issue tracking the ability to change the URL position: https://bugzilla.mozilla.org/show_bug.cgi?id=1280700
