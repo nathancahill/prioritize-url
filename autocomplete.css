@@ -1,0 +1,78 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+@-moz-document url(chrome://browser/content/browser.xul) {
+    richlistbox.autocomplete-richlistbox {
+       height: auto !important;
+       max-height: 248px !important;
+    }
+
+    .ac-type-icon, .ac-site-icon {
+        margin-top: 6px;
+    }
+
+    .ac-title, .ac-separator, .ac-url, .ac-action {
+        font-size: 12px !important;
+    }
+
+    .autocomplete-richlistitem[collapsed="true"] {
+        height: 0 !important;
+        min-height: 0 !important;
+    }
+
+    .autocomplete-richlistitem[type="favicon"] .ac-title,
+    .autocomplete-richlistitem[type="favicon"] .ac-separator,
+    .autocomplete-richlistitem[type="favicon"] .ac-url {
+        height: 16px;
+        margin-top: 6px;
+    }
+
+    .autocomplete-richlistitem[type="favicon"] {
+        display: flex;
+    }
+
+    .autocomplete-richlistitem[type="favicon"] {
+        display: flex;
+    }
+
+    .autocomplete-richlistitem[type="favicon"] .ac-title {
+        order: 3;
+
+    }
+
+    .ac-title-text {}
+    .ac-tags {}
+
+    .autocomplete-richlistitem[type="favicon"] .ac-separator {
+        order: 2;
+        -moz-margin-start: 6px;
+        -moz-margin-end: 6px;
+    }
+
+    .autocomplete-richlistitem[type="favicon"] .ac-url {
+        order: 1;
+    }
+
+    .ac-url-text {}
+    .ac-action {}
+
+    .autocomplete-richlistitem[type="switchtab"] .ac-type-icon,
+    .autocomplete-richlistitem[type="switchtab"] .ac-site-icon,
+    .autocomplete-richlistitem[type="searchengine"] .ac-type-icon,
+    .autocomplete-richlistitem[type="searchengine"] .ac-site-icon,
+    .autocomplete-richlistitem[actiontype="visiturl"] .ac-type-icon,
+    .autocomplete-richlistitem[actiontype="visiturl"] .ac-site-icon {
+        margin-top: 0;
+    }
+
+    .autocomplete-richlistitem[type="switchtab"] .ac-separator,
+    .autocomplete-richlistitem[type="switchtab"] .ac-action,
+    .autocomplete-richlistitem[type="switchtab"] .ac-url,
+    .autocomplete-richlistitem[type="searchengine"] .ac-separator,
+    .autocomplete-richlistitem[type="searchengine"] .ac-action,
+    .autocomplete-richlistitem[type="searchengine"] .ac-url,
+    .autocomplete-richlistitem[actiontype="visiturl"] .ac-separator,
+    .autocomplete-richlistitem[actiontype="visiturl"] .ac-action,
+    .autocomplete-richlistitem[actiontype="visiturl"] .ac-url {
+        margin-bottom: 0;
+    }
+}
