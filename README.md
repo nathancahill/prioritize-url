@@ -4,7 +4,7 @@ There's a trend in browser interfaces where URLs are becoming less prominent. Sa
 
 ![](http://i.imgur.com/b9uICBX.png)
 
-This can be fixed by moving the URL to the first position with a bit of CSS:
+This can be fixed by moving the URL to the first position with [a bit of CSS](https://cdn.rawgit.com/nathancahill/prioritize-url/master/autocomplete.css):
 
 ![](http://i.imgur.com/1fRhAzU.png)
 
@@ -12,7 +12,7 @@ As a bonus, I also tightened up the design a little to use the default 12px font
 
 ### Installation
 
-After installing [Stylish](https://userstyles.org/), install the stylesheet here.
+After installing [Stylish](https://userstyles.org/), install [the stylesheet here](https://cdn.rawgit.com/nathancahill/prioritize-url/master/autocomplete.css).
 
 ### Issues
 
