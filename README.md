@@ -12,7 +12,7 @@ As a bonus, I also tightened up the design a little to use the default 12px font
 
 ### Installation
 
-After installing [Stylish](https://userstyles.org/), install [the stylesheet here](https://cdn.rawgit.com/nathancahill/prioritize-url/master/autocomplete.css).
+After installing [Stylish](https://userstyles.org/), install [the stylesheet here](https://userstyles.org/styles/131235/firefox-autocomplete-prioritize-url).
 
 ### Issues
 
@@ -21,3 +21,7 @@ This has only been tested on Firefox 48 for Mac and Firefox 48 on Ubuntu 14.x. F
 ### Upstream
 
 There's an open issue tracking the ability to change the URL position: https://bugzilla.mozilla.org/show_bug.cgi?id=1280700
+
+### License
+
+MIT
