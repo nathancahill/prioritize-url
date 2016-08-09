@@ -16,7 +16,7 @@ After installing [Stylish](https://userstyles.org/), install [the stylesheet her
 
 ### Issues
 
-This has only been tested on Firefox 48 for Mac. Feel free to try it out on other platforms and [open an issue](https://github.com/nathancahill/prioritize-url/issues) for any bugs that you find.
+This has only been tested on Firefox 48 for Mac and Firefox 48 on Ubuntu 14.x. Feel free to try it out on other platforms and [open an issue](https://github.com/nathancahill/prioritize-url/issues) for any bugs that you find.
 
 ### Upstream
 
