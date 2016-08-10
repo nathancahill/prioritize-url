@@ -12,7 +12,7 @@ As a bonus, I also tightened up the design a little to use the default 12px font
 
 ### Installation
 
-After installing [Stylish](https://userstyles.org/), install [the stylesheet here](https://userstyles.org/styles/131235/firefox-autocomplete-prioritize-url).
+After installing [Stylish](https://userstyles.org/), install [the stylesheet here](https://userstyles.org/styles/131235/firefox-autocomplete-prioritize-url). Or include the CSS manually in [userChrome.css](http://kb.mozillazine.org/index.php?title=UserChrome.css) (without the `@-moz-document` line).
 
 ### Issues
 
