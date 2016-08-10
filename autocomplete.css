@@ -21,20 +21,26 @@
 
     .autocomplete-richlistitem[type="favicon"] .ac-title,
     .autocomplete-richlistitem[type="favicon"] .ac-separator,
-    .autocomplete-richlistitem[type="favicon"] .ac-url {
+    .autocomplete-richlistitem[type="favicon"] .ac-url,
+    .autocomplete-richlistitem[type="bookmark"] .ac-title,
+    .autocomplete-richlistitem[type="bookmark"] .ac-separator,
+    .autocomplete-richlistitem[type="bookmark"] .ac-url {
         height: 16px;
         margin-top: 6px;
     }
 
-    .autocomplete-richlistitem[type="favicon"] {
+    .autocomplete-richlistitem[type="favicon"],
+    .autocomplete-richlistitem[type="bookmark"] {
         display: flex;
     }
 
-    .autocomplete-richlistitem[type="favicon"] {
+    .autocomplete-richlistitem[type="favicon"],
+    .autocomplete-richlistitem[type="bookmark"] {
         display: flex;
     }
 
-    .autocomplete-richlistitem[type="favicon"] .ac-title {
+    .autocomplete-richlistitem[type="favicon"] .ac-title,
+    .autocomplete-richlistitem[type="bookmark"] .ac-title {
         order: 3;
 
     }
@@ -42,13 +48,15 @@
     .ac-title-text {}
     .ac-tags {}
 
-    .autocomplete-richlistitem[type="favicon"] .ac-separator {
+    .autocomplete-richlistitem[type="favicon"] .ac-separator,
+    .autocomplete-richlistitem[type="bookmark"] .ac-separator {
         order: 2;
         -moz-margin-start: 6px;
         -moz-margin-end: 6px;
     }
 
-    .autocomplete-richlistitem[type="favicon"] .ac-url {
+    .autocomplete-richlistitem[type="favicon"] .ac-url,
+    .autocomplete-richlistitem[type="bookmark"] .ac-url {
         order: 1;
     }
 
