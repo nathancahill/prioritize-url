@@ -3,7 +3,7 @@
 @-moz-document url(chrome://browser/content/browser.xul) {
     richlistbox.autocomplete-richlistbox {
        height: auto !important;
-       max-height: 248px !important;
+       max-height: 310px !important;
     }
 
     .ac-type-icon, .ac-site-icon {
