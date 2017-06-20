@@ -6,12 +6,16 @@
        max-height: 310px !important;
     }
 
-    .ac-type-icon, .ac-site-icon {
+    .ac-type-icon, .ac-site-icon:not([type="insecureWarning"]) {            /* for all awesomebar suggestions icons (except those for contextual feedback on insecure passwords) */
         margin-top: 6px;
     }
 
-    .ac-title, .ac-separator, .ac-url, .ac-action {
-        font-size: 12px !important;
+    .ac-site-icon[type="insecureWarning"], .ac-site-icon[type="login"] {    /* for the icons in contextual feedback on insecure passwords */
+        margin-top: 0;
+    }
+
+    /*.ac-title,*/ .ac-separator, .ac-url, .ac-action {
+        font-size: 14px !important;
     }
 
     .autocomplete-richlistitem[collapsed="true"] {
@@ -83,4 +87,10 @@
     .autocomplete-richlistitem[actiontype="visiturl"] .ac-url {
         margin-bottom: 0;
     }
+
+    .autocomplete-richlistitem[type="favicon"] .ac-url-text,
+    .autocomplete-richlistitem[type="bookmark"] .ac-url-text{
+        max-width: none !important;                     /* or initial*/
+    }
+
 }
