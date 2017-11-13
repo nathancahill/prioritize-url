@@ -2,7 +2,6 @@
 
 @-moz-document url(chrome://browser/content/browser.xul) {
     richlistbox.autocomplete-richlistbox {
-       height: auto !important;
        max-height: 310px !important;
     }
 
